@@ -22,7 +22,6 @@ var CarouseItem = React.createClass({
 			state.pageNum = (state.pageNum === 0) ? 2 : state.pageNum - 1;
 			return {pageNum: state.pageNum};
 		});
-		this.refs.promobg.getDOMNode().style.width= '100px';
 		if(this.state.pageNum === 0) {
 			this.refs.promobg.getDOMNode().style.cssText="transform: translate3d(-2340px, 0, 0); transition: 500ms ease;";
 		}
