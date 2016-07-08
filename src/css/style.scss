@@ -1,4 +1,4 @@
-div, img {
+div, img, a, ul, li {
 	margin: 0;
 	padding: 0;
 }
@@ -56,3 +56,27 @@ body {
 	}
 
 }
+
+.promo-nav {
+	position: absolute;
+	padding: 0 4px;
+	bottom: 1%;
+	left: 50%;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, .3);
+
+	li {
+		display: inline-block;
+		margin: 2px;
+
+		a {
+			display: block;
+			width: 9px;
+			height: 0;
+			padding-top: 9px;
+			border-radius: 50%;
+			background: #b7b7b7;
+		}
+	}
+}
+
