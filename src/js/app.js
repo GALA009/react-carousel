@@ -65,7 +65,6 @@ var CarouseItem = React.createClass({
 	},
 	render: function () {
 		var children = [];
-		var nav = [];
 		var pos = 0;
 		var style = { transform: 'translate3d(0, 0, 0)' }
 		for (var i = 0; i < imgDatas.length; i++) {
@@ -77,11 +76,6 @@ var CarouseItem = React.createClass({
 				<div className = "container-item" style={_style}>
 					<img src={imgDatas[i]} alt='美女' />
 				</div>);
-			nav.push(
-				<li className="">
-					<a href="javascript:void(0);"></a>
-				</li>
-			)
 		}
 		return (
 			<div className="col-lg-12 col-md-12 col-sm-12">
@@ -97,9 +91,6 @@ var CarouseItem = React.createClass({
 							<span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 						</a>
 					</div>
-					<ul className="promo-nav">
-						{nav}
-					</ul>
 				</div>
 
 			</div>

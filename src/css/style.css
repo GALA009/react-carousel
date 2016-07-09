@@ -53,25 +53,4 @@ body {
   font-size: 24px;
 }
 
-.promo-nav {
-  position: absolute;
-  padding: 0 4px;
-  bottom: 1%;
-  left: 50%;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-.promo-nav li {
-  display: inline-block;
-  margin: 2px;
-}
-.promo-nav li a {
-  display: block;
-  width: 9px;
-  height: 0;
-  padding-top: 9px;
-  border-radius: 50%;
-  background: #b7b7b7;
-}
-
 /*# sourceMappingURL=style.css.map */
