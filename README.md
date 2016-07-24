@@ -4,3 +4,10 @@
 ##效果
 
 <img src="https://github.com/genmmao/MarkdownPhotos/blob/master/react-carousel/react-carousel.gif?raw=true" width="400" height="400" alt="react简单轮播图"/>
+
+##使用
+```
+git clone https://github.com/genmmao/react-carousel.git
+npm install
+grunt server
+```
